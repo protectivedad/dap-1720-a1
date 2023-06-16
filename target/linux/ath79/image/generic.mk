@@ -865,7 +865,8 @@ define Device/dlink_dap-1720-a1
   DEVICE_MODEL := DAP-1720
   DEVICE_VARIANT := A1
   IMAGE_SIZE := 15872k
-  DEVICE_PACKAGES :=  kmod-ath10k-ct-smallbuffers ath10k-firmware-qca988x-ct
+  DEVICE_PACKAGES := kmod-ath10k-ct-smallbuffers ath10k-firmware-qca988x-ct \
+	rssileds
   SEAMA_SIGNATURE := wapac28_dlink.2015_dap1720
 endef
 TARGET_DEVICES += dlink_dap-1720-a1
